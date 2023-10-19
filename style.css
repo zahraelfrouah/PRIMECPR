@@ -1,0 +1,628 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+
+}
+.section1{
+  background-image: url(images/Image\ \(5\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  flex-shrink: 0;
+}
+
+.section1 .nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40PX;
+}
+.section1 .nav img{
+  width: 250px;
+height: 45px;
+
+}
+.section1 .nav ul{
+  list-style: none;
+  display: flex;
+  
+}
+.section1 .nav ul li{
+  margin: 10px;
+ 
+}
+.section1 .nav ul li a{
+  text-decoration: none;
+  font-size: 20PX;
+  font-weight: 300;
+  gap: 45PX;
+  color: #303030;
+}
+.section1 .nav button{
+  border-radius: 5px;
+  background: #303030;
+padding: 12px 38px;
+justify-content: center;
+align-items: center;
+gap: 45px;
+position: relative;
+right: 250PX;
+top:20PX ;
+color: white;
+}
+.header{
+  padding: 40PX;
+  justify-content: center;
+  align-items: center;
+}
+.header h1{
+  color: #303030;
+  font-family: Jost;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.2%;
+  text-transform: capitalize;
+}
+.header p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 40px */
+text-transform: capitalize;
+}
+.section1 img{
+  width: 700px;
+height: 100px;
+flex-shrink: 0;
+position: relative;
+margin-left: 40px;
+
+}
+.section1 button{
+  display: flex;
+padding: 14px 39px;
+justify-content: center;
+align-items: center;
+margin-left: 40PX;
+border-radius: 5px;
+background: #303030;
+margin-bottom: 40PX;
+color: white;
+
+}
+
+.section2{
+  padding: 40PX;
+}
+.section2 .sec1{
+  text-align: center;
+}
+.section2 .sec1 h1{
+  color: #303030;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%; 
+text-transform: capitalize;
+}
+.section2 .sec1 p{
+  color: #4E4E4E;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+text-transform: capitalize;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  display: flex;
+padding: 50px 47px;
+flex-direction: column;
+align-items: flex-start;
+margin: 20PX;
+border-radius: 10px;
+background: rgba(244, 244, 244, 0.93);
+box-shadow: -2.57262px 2.57262px 0px 0px #e8e4e4 inset;
+
+
+}
+.card img{
+  width: 61.885px;
+height: 61.884px;
+margin-bottom: 10PX;
+}
+.card h3{
+  color: #090909;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 300; 
+text-transform: capitalize;
+}
+.card p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+
+text-transform: capitalize;
+}
+.section3{
+  background-image: url(images/Background\ \(1\).png);
+ 
+  background-size: cover;
+  height: 700PX;
+  width: 550PX;
+  padding: 30PX;
+  display: flex;
+  justify-content: space-between;
+  gap: 78PX;
+  margin-bottom: 20PX;
+
+}
+.section3 img{
+
+height: 550px;
+flex-shrink: 0;
+border-radius: 30px;
+
+}
+ .section3 .prh .row1 h3{
+  width: 589px;
+height: 123px;
+color: #303030;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%; 
+text-transform: capitalize;
+
+
+}
+
+.section3 .prh .row1 p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+margin-bottom: 10px;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+
+
+.section3 .prh .row2 p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+text-transform: capitalize;
+}
+
+.section4{
+  display: flex;
+  padding: 50PX;
+  gap: 74PX;
+
+
+}
+.section4 .col2 img{
+ 
+  height: 650px;
+  flex-shrink: 0;
+  border-radius: 30px;
+ 
+}
+.section4 .col1 {
+ position: relative;
+ top: 71px;
+}
+.section4 .col1 .row1 h1{
+  color: #303030;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+
+text-transform: capitalize;
+width: 537px;
+margin-bottom: 10px;
+}
+.section4 .col1 .row1 p{
+  color: #4E4E4E;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+
+.section4 .col1 .row2{
+  display: flex;
+  gap: 43PX;
+
+}
+
+.section4 .col1 .row2 .card1 img{
+  width: 94PX;
+  height: 44PX;
+  margin-bottom: 10px;
+}
+.section4 .col1 .row2 .card1 h3{
+  color: #0e0e0e;
+font-family: Jost;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 133.2%;
+
+}
+
+
+
+.section4 .col1 .row2 .card1 p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 55px;
+}
+.section4  .col1 button{
+  display: flex;
+padding: 14px 39px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: #303030;
+color: white;
+}
+
+.section5 h1{
+  color: #303030;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+.section5 p{
+  color: #4E4E4E;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+.section5 img{
+  display: flex;
+  width:900px;
+  position: relative;
+  left: 180PX;
+  margin-bottom: 60PX;
+}
+.section6{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 300PX;
+}
+
+.section6 .black{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(images/Background.png);
+  padding: 50PX;
+  position: relative;
+  left: 180PX;
+  width: 900px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 30px;
+
+}
+.section6 .text h1{
+  color: #FFF;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%; 
+text-transform: capitalize;
+}
+.section6 .text p{
+  color: #FFF;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+text-transform: capitalize;
+}
+.section6 .btn .npt{
+  display: flex;
+}
+.section6 .btn p
+{
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.section6 .btn input{
+  width: 250px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+background: #FFF;
+padding: 30PX;
+}
+.section6 .btn button{
+  
+
+text-align: center;
+
+border-radius: 5px;
+background: #4BE3EB;
+width: 100PX;
+  height: 65px;
+  cursor: pointer;
+}
+
+.section6 .img img{
+  border-radius: 30px;
+ position: absolute;
+ top: 200PX;
+ right: 120PX;
+  width: 970px;
+
+ 
+}
+
+.section7 h1{
+  color: #303030;
+text-align: center;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%;
+margin-top: 0px;
+}
+.section7 p{
+  color: #4E4E4E;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+
+}
+.section7 img{
+  width: 900px;
+height: 500px; 
+margin-left: 260PX;
+margin-bottom: 70PX;
+}
+
+.section8{
+  display: flex;
+  justify-content: space-between;
+margin-left: 250PX;
+margin-bottom: 70PX;
+
+}
+.section8 .img2 img{
+  width: 600px;
+height: 500px;
+flex-shrink: 0;
+
+
+}
+.section8 .cards2 .title h1{
+  color: #303030;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%; 
+
+}
+.section8 .cards2 .title p{
+  color: #4E4E4E;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.section8 .cards2 .card2{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+.section8 .cards2 .card2 h1{
+  color: #303030;
+font-family: Jost;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 133.2%; /* 39.96px */
+text-transform: capitalize;
+
+}
+.section8 .cards2 .card2  .color h1{
+  color: #47CFFF;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.2%; 
+  text-transform: capitalize;
+}
+
+.section8 .cards2 .card2 p{
+  color: #4E4E4E;
+font-family: Open Sans;
+font-size: 12PX;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+margin-bottom: 30px;
+}
+
+.section9 .title2 h1{
+  color: #303030;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.2%;
+  text-transform: capitalize;
+}
+.section9 .title2 p{
+  color: #4E4E4E;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+text-transform: capitalize;
+}
+.section9{
+  position: relative;
+ 
+}
+.section9 .dev {
+
+ position: absolute;
+ width: 1060PX;
+ left: 100PX;
+  
+}
+.section9 .cards3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30PX;
+
+ 
+
+}
+.section9 .cards3 .card3{
+ margin-top: 270PX;
+padding: 60PX;
+align-items: flex-start;
+gap: 10px;
+border-radius: 30px;
+border: 1px solid #EBEBEB;
+background: #FFF;
+box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+width: 300PX;
+height: 500PX;
+margin-left: 170PX;
+position: relative;
+top: -100PX;
+
+}
+.section9 .cards3 .card3 p{
+
+  color: #303030;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+}
+.section9 .cards3 .card3 button{
+  display: flex;
+padding: 10PX;
+align-items:center;
+justify-content: center;
+margin-top: 20PX;
+border-radius: 15px;
+background: #EAEAEA;
+border: 1PX SOLID #EAEAEA;
+width: 200PX;
+height: 50PX;
+
+
+}
+.section9 .cards3 .card3 button:hover{
+  background: #090909;
+  color: white;
+}
+
+
+/* footer  */
+
+footer .dev1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30PX;
+}
+footer .dev2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+margin-bottom: 20PX;
+color: white;
+font-size: 15PX;
+text-align: start;
+margin-top: 10PX;
+}
+
+footer .dev3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  color: white;
+  text-align: start;
+  margin-top: 20PX;
+  font-family: Jost;
+}
+
+.dev4{
+  text-align: center;
+  color: white;
+  margin-top: 10PX;
+}
+.footer{
+  background: #303030;
+  padding: 50PX;
+}
+.dev1-1{
+  width: 557px;
+height: 226px;
+flex-shrink: 0;
+margin-bottom: 30PX;
+
+}
